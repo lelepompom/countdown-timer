@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  public endDate = '2020-06-03T23:59:59Z';
+  public endDate = '2020-05-03T01:13:59';
+
+  public timeExpired() {
+    console.info('Time expired!');
+  }
 }
